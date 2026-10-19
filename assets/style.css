@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: Arial,  sans-serif;
+    background-color: white;
+    color: aqua;
+    }
+    nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: cornflowerblue;
+padding: 20px 10px;
+ }
+ .logo{ 
+    color: beige;
+    font-size: 25px;
+    font-weight: bold;
+ }
+nav a{
+    color: beige;
+    text-decoration: none;
+    margin-left: 20px;
+ }
+ .hero{
+    min-height: 250px;
+    background-image: url("https://images.pexels.com/photos/4858586/pexels-photo-4858586.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    color: white;
+ }
+ .hero h1{ 
+    font-size: 50px;
+ }
+.hero p{
+    font-size: 20px;
+    line-height: 1.6;
+
+ }
+.hero button{
+    background-color: antiquewhite;
+    color: azure;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .columns{
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40 px auto;
+    padding: 20px;
+ }
+ .column{
+    flex: 1;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ .column h2{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: blue;
+ }
+ .column p{
+    font-size: 1rem;
+ }
+ /* Contact Styles */
+ .hero-contact{
+   background-color: #e8f0fe;
+ color: #333;
+ text-align: center;
+ padding: 50px 25px;
+ border-radius: 12px;
+ margin: 30px auto;
+ }
+
+ .hero-contact h1{
+   font-size: 32px;
+   color: #174a7e;
+   margin-bottom: 15px;
+ }
+
+ .hero-contact p{
+   font-size: 17px;
+   line-height: 1.8;
+   margin-bottom: 20px;
+ }
+
+ .Tulip{
+   display: flex;
+   gap: 38px;
+   padding: 38px;
+ }
+
+ .me,.mine{
+   background-color: blueviolet;
+   color: #fff;
+   padding: 15px;
+   flex: 1;
+ }
+
+ .me img{
+   width:100%;
+   height: 420px;
+   object-fit: cover;
+   border-radius: 10px;
+ }
+
+label{
+   display: block;
+   margin-top: 17px;
+   margin-bottom: 8px;
+   font-weight: bold;
+}
+
+.mine form{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   align-items: stretch;
+}
+
+.mine input,
+.mine textarea{
+   width: 100%;
+   box-sizing: border-box;
+   padding: 8px;
+   border: none;
+   background: #f0f0f0;
+}
+
+.mine textarea{
+   height: 120px;
+}
+
+.mine textarea{
+ width: 100%;
+ padding: 10px;
+}
+
+.mine button{
+    width: 100%;
+padding: 10px;
+}
+
+ 
